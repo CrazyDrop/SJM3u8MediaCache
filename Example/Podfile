@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SJM3u8MediaCache_Example' do
+  pod 'SJM3u8MediaCache', :path => '../'
+
+  target 'SJM3u8MediaCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
