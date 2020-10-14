@@ -1,0 +1,6 @@
+framework module Pods_SJM3u8MediaCache_Tests {
+  umbrella header "Pods-SJM3u8MediaCache_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

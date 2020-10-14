@@ -8,5 +8,7 @@
 #ifndef SJM3u8MediaCache_h
 #define SJM3u8MediaCache_h
 
+#import "SJM3u8FileCache.h"
+
 
 #endif /* SJM3u8MediaCache_h */

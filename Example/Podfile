@@ -1,4 +1,5 @@
-use_frameworks!
+use_frameworks!       #使用frameworks
+inhibit_all_warnings! #屏蔽警告
 
 platform :ios, '8.0'
 

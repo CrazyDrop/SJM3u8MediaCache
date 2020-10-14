@@ -1,0 +1,6 @@
+framework module SJM3u8MediaCache {
+  umbrella header "SJM3u8MediaCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/M3U8Kit" "${PODS_CONFIGURATION_BUILD_DIR}/SJM3u8MediaCache"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/M3U8Kit/M3U8Kit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SJM3u8MediaCache/SJM3u8MediaCache.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/M3U8Kit/M3U8Kit.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SJM3u8MediaCache/SJM3u8MediaCache.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/M3U8Kit" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SJM3u8MediaCache"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "CoreGraphics" -framework "M3U8Kit" -framework "MobileCoreServices" -framework "SJM3u8MediaCache" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
